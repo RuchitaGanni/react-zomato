@@ -1,0 +1,232 @@
+.tiles_tab{
+    height: 700px;
+    width: 900px;
+    margin-left: 20px;
+    /* background-color: rgb(245, 11, 175); */
+    float: left;
+}
+.tile_contents{
+    height: 250px;
+    width: 700px;
+    /* background-color: rgb(236, 6, 6); */
+    /* margin-top: 30px; */
+    margin-left: 20px;
+    margin-bottom: 25px;
+    /* display: block; */
+    /* transform: scale(1.1); */
+
+    box-shadow:  2px 8px 24px rgba(15, 16, 17, 0.2)
+}
+.tile_content_top{
+    margin-top: 10px;
+    display: inline-block;
+    /* background-color:yellow; */
+    /* display: flex; */
+}
+
+.tile_text_div{
+    margin-top: -100px;
+    /* display: inline-block; */
+    margin-left:140px;
+    float:right;
+   
+}
+.tile_image{
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    margin-left: 40px;
+}
+.tile_text{
+    /* display: block; */
+    height: 30px;
+    width: 500px;
+    margin-left: 35px;
+    font-size: 25px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.tile_loc1{
+    height: 30px;
+    width: 600px;
+    margin-left: 35px;
+    margin-top: 40px;
+    font-size: 15px;
+    /* font-weight: bold; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tile_loc2{
+    height: 30px;
+    width: 500px;
+    margin-left: 35px;
+    margin-top: 7px;
+    font-size: 12px;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.tile_content_bottom{
+ display: inline-block;  
+}
+.bottom_lines{
+    margin-top: 2px;  
+}
+.bottom_lines2{
+margin-top: 12px;
+}
+.left_text{
+    width: 100px;
+    /* height: 50px; */
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: bold; */
+    color: gray;
+    margin-left: 40px;
+    /* float: left; */
+
+}
+.right_text{
+    width: 200px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: bold; */
+    /* display: inline-block; */
+    margin-left:170px;
+    margin-top:-24px;
+    float: right;
+}
+#mealTypeLabel{
+    margin-left:5px;
+}
+#cuisineLabel{
+    margin-left:4px;
+}
+button{
+    margin-left:35px;
+    /* border:1px; */
+    color: rgb(248, 246, 246) !important;
+    font-size: 14px !important; 
+    /* border-color: #f44336;
+    
+    color: rgb(240, 42, 42); */
+    /* font-size: 14px; */
+    /* border-radius: 12px; */
+    /* padding: 6px 15px; */
+   
+}
+.pagination {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 415px;
+  }
+  
+  .pagination > a {
+    color: black;
+    float: left;
+    margin: 2px;
+    padding: 8px 16px;
+    text-decoration: none; 
+    border:2px solid rgb(167, 175, 167);
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .pagination a:hover {
+    background-color: #949da0;
+    color: white;
+    border-radius: 6px;
+  }
+  #loaderGIF{
+    margin-left: 350px;
+}
+
+  @media screen and (max-width: 600px) {
+
+    hr{
+        width:200px;
+    }
+    .tiles_tab{
+        height: 700px;
+        width: 400px;
+        margin-left: 0px;
+        /* background-color: rgb(245, 11, 175); */
+        float: none;
+    }
+
+    .tile_contents{
+        height: 250px;
+        width: 400px;
+        /* background-color: rgb(236, 6, 6); */
+        /* margin-top: 30px; */
+        margin-left: 0px;
+        margin-bottom: 25px;
+        /* display: block; */
+        /* transform: scale(1.1); */
+    
+        /* box-shadow:  2px 8px 24px rgba(15, 16, 17, 0.2) */
+    }
+
+    .tile_text{
+       
+        height: 30px;
+        width: 400px;
+        margin-left: 30px;
+        font-size: 18px;
+    
+        
+    }
+    .tile_loc1{
+        height: 30px;
+        width: 400px;
+        margin-left: 30px;
+        margin-top: 40px;
+        font-size: 12px;
+        
+    }
+    .tile_loc2{
+        
+        width: 200px;
+        
+       
+    }
+
+    .left_text{
+        width: 100px;
+       
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* font-weight: bold; */
+        color: gray;
+        margin-left: 40px;
+    
+    }
+    .right_text{
+        
+        width: 100px;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* font-weight: bold; */
+        /* display: inline-block; */
+        margin-left:165px;
+        margin-top:-25px;
+        float: right;
+        /* background-color:yellow; */
+    }
+
+    button{
+        margin-left:30px;
+        border:1px;
+        border-color: #f44336;
+        /* background-color: #e7e7e7;  */
+        color: rgb(240, 42, 42);
+        font-size: 14px;
+        border-radius: 12px;
+        /* padding: 6px 15px; */
+        /* transform: scale(1.0); */
+    }
+    #loaderGIF{
+        margin-left: 150px;
+    }
+
+  }
+

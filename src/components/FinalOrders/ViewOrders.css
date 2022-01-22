@@ -1,0 +1,68 @@
+th {
+  color: red;
+}
+
+td {
+  font-family: verdana, arial, helvetica;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#ordersDiv {
+  height: 300px;
+  width: 31%;
+  margin: 8px;
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 20px;
+  float: left;
+  /* display: inline-block; */
+}
+
+.ordRestName {
+  width: 100%;
+  text-align: center;
+}
+
+.ordPrice {
+  width: 100%;
+  margin-left: 15px;
+
+  color: gray;
+  font-family: verdana, arial, helvetica !important;
+}
+.OrdResImageDiv {
+  width: 30%;
+  height: 20%;
+  float: left;
+}
+.OrdResImage {
+  height: 100%;
+  width: 100%;
+  margin-left: 2%;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+
+@media  screen and (max-width: 600px) {
+  #ordersDiv {
+    height: 300px;
+    width: 90%;
+    margin-top:4px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 20px;
+    float: left;
+  }
+
+  .OrdResImageDiv {
+    width: 30%;
+    height: 20%;
+    float: left;
+  }
+  .OrdResImage {
+    height: 100%;
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 5%;
+    border-radius: 10px;
+  }
+}

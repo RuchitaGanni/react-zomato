@@ -1,0 +1,87 @@
+
+#search_items{
+    height:150px;
+    width:30%;
+    /* margin-left: 10%;
+    margin-top: 5%; */
+    margin : 10px;
+    box-shadow:10px 10px 20px gray;
+    border-radius: 20px;
+    display:inline-block;
+}
+
+.srcImage{
+    text-align:center;
+    width:50%;
+    float: left;
+}
+.srcText{
+    width:50%;
+    float: right;
+    text-decoration: none;
+    color:black;
+    font-family: verdana, arial, helvetica;
+}
+
+#searchImg{
+    height: 100%;
+    width: 80%;
+    margin-left:2%;
+    margin-top:5%;
+    border-radius: 10px;
+}
+
+#loaderGIF{
+    margin-left: 350px;
+}
+
+@media screen and (max-width:900px){
+
+    #search_items{
+        height:150px;
+        width:60%;
+       
+       
+    }
+    .srcImage{
+        text-align:center;
+        width:50%;
+       
+    }
+    #searchImg{
+        height: 80%;
+        width: 60%;
+        
+    } 
+    #loaderGIF{
+        margin-left: 200px;
+    }
+    
+}
+@media screen and (max-width:600px){
+
+    #search_items{
+        height:150px;
+        width:70%;
+       
+       
+    }
+    .srcImage{
+        text-align:center;
+        width:50%;
+       
+    }
+    .srcText{
+        width:40%;
+       
+    }
+
+    #searchImg{
+        height: 100%;
+        width: 80%;
+        
+    }
+    #loaderGIF{
+        margin-left: 60px;
+    }
+}

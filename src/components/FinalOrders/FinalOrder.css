@@ -1,0 +1,58 @@
+
+
+.orderItems{
+    width:20%;
+    height:30%;
+    margin-left:8px;
+    float:left;
+   
+    /* display:inline-block; */
+}
+.orderImgDiv{
+    width:250px;
+    height:200px;
+    float:left;
+   
+}
+#orderImg{
+    width:90%;
+    height:200px;
+    border-radius: 3%;
+}
+.orderTxtDiv{
+    margin-top:2px;
+    width: 200px;
+    height:20%;
+}
+.orderTxt{
+    font-size:15px;
+    font-weight: bold;
+}
+#btnTXT{
+    font-size:15px;
+    font-weight: bold;
+    color: black !important;
+}
+.finalPrice{
+    font-size: 20px;
+}
+
+@media screen and (max-width:600px){
+    .orderItems{
+        width:30%;
+        height:20%;  
+    }
+    
+    .orderImgDiv{
+        width:100%;
+        height:60%;
+
+    }
+
+    .orderTxtDiv{
+        
+        width: 200px;
+        height:20%;
+        float:left
+    }
+}

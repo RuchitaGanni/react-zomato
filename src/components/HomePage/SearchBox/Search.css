@@ -1,0 +1,57 @@
+
+/* #search_items{
+    margin: 0px;
+    box-shadow:2px 8px 12px rgba(105, 101, 101, 0.39)
+} */
+#selectBox{
+    margin-left:200px;
+}
+
+
+@media screen and (max-width:1024px){
+   
+    #selectBox{
+        margin-left:20px;
+    }
+    /* #search_items{
+
+        box-shadow:   2px 8px 12px rgba(105, 101, 101, 0.39)
+    } */
+    
+    
+}
+
+
+@media screen and (max-width:900){
+  
+    #selectBox{
+        margin-left:20px;
+    }
+    
+    
+}
+
+
+
+
+@media screen and (max-width:600px){
+   
+    #selectBox{
+        margin-left:60px;
+    }
+    
+}
+@media screen and (max-width:400px){
+    
+    #selectBox{
+        margin-left:20px;
+    }
+}
+@media screen and (max-width:300px){
+   
+    #selectBox{
+        margin-left:0px;
+    }
+    
+}
+/* coupons css */

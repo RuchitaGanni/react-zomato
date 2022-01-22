@@ -1,0 +1,197 @@
+.top1 {
+  height: 350px;
+  width: 100%;
+}
+
+.restMainDiv {
+  float: left;
+}
+
+.restImageDiv {
+  height: 300px;
+  width: 500px;
+  /* background-color: yellow; */
+  float: left;
+}
+.restExtraDiv {
+  height: 400px;
+  width: 400px;
+  /* background-color:red; */
+  float: left;
+  margin-left: 20px;
+}
+#restImage {
+  height: 300px;
+  width: 100%;
+}
+.restStarInfo {
+  /* background-color:pink; */
+  height: 40px;
+  width: 100%;
+  font-size: 30px;
+  /* margin-left: 20px; */
+}
+#label {
+  background-color: green !important;
+}
+#placeOrdertxt {
+  font-size: 18px;
+}
+
+.itemsDiv33 {
+  height: 400px;
+  width: 100%;
+  /* background-color:rgb(30, 83, 5); */
+}
+#orderLine {
+  width: 100%;
+}
+.card {
+  height: 190px;
+  width: 45%;
+  margin-right:3%;
+  margin-top: 2%;
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 20px;
+  float: left;
+}
+
+.cardImage {
+  height: 70%;
+  width: 60%;
+
+  margin-top: 5%;
+  border-radius: 10px;
+}
+.itemImg {
+  width: 45%;
+  height: 100%;
+  float: left;
+  margin-top:2%;
+  margin-left:1%;
+  text-align:center;
+}
+.itemdetails {
+  width: 50%;
+  margin-top: 2%;
+  float: left;
+}
+.btnsDiv {
+  width: 40%;
+  float: left;
+  margin-top: 5%;
+  margin-left:-7%;
+}
+.itemName {
+  font-size: 19px;
+}
+.itemPrice {
+ 
+  font-size: 19px;
+ font-weight:bold;
+ color:red;
+}
+
+@media screen and (max-width: 1400px) {
+ .tabs {
+   
+    margin-top: -4% !important;
+    float:left
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .top1 {
+    height: 320px;
+  }
+  .restExtraDiv {
+    height: 100px;
+    width: 400px;
+    margin-left: 20px;
+  }
+  .tabs {
+    margin-top: 25% !important;
+  }
+  .card {
+    width: 100%;
+  }
+  .itemImg {
+    width: 30%;
+    height: 100%;
+  }
+  .cardImage {
+    width: 90%;
+  }
+  .itemdetails {
+    width: 30%;
+    margin-left: 8px;
+  }
+  .itemName {
+    font-size: 18px;
+  }
+  .btnsDiv {
+    width: 30%;
+
+    margin-left: 10px;
+  }
+  .iconBtn {
+    /* margin-left: 0px !important;
+    margin-right: 2px; */
+    float:left !important;
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+
+  .top1 {
+    margin-left:10%;
+  }
+  .tabs {
+    margin-top: 25% !important;
+  }
+ }
+@media screen and (max-width: 600px) {
+  .top1 {
+    height: 320px;
+  }
+   .tabs {
+    margin-top: 5% !important;
+  }
+  .restStarInfo {
+    height: 40px;
+    width: 100%;
+    font-size: 30px;
+  }
+  .restExtraDiv {
+    height: 250px;
+    width: 400px;
+    margin-left: 20px;
+  }
+ 
+  .card {
+    width: 100%;
+  }
+  .itemImg {
+    width: 30%;
+    height: 100%;
+  }
+  .cardImage {
+    width: 90%;
+  }
+  .itemdetails {
+    width: 30%;
+    margin-left: 10px;
+  }
+  .itemName {
+    font-size: 18px;
+  }
+  .btnsDiv {
+    width: 30%;
+    margin-left: 10px;
+  }
+  .iconBtn {
+    margin-left: 0px !important;
+    margin-right: 2px;
+  }
+}

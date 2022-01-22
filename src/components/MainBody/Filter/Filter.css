@@ -1,0 +1,100 @@
+.filter {
+  height: 500px;
+  width: 200px;
+  /* background-color: yellow; */
+  float: left;
+  box-shadow: 2px 8px 24px rgba(11, 12, 14, 0.2);
+}
+.filter_span {
+  margin-left: -6px;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.filter_elements {
+  height: 500px;
+  /* display: inline-block; */
+  /* background-color: rgb(128, 128, 72); */
+}
+
+.filter_heading {
+  height: 30px;
+  width: 600px;
+  margin-left: 20px;
+  margin-top: 10px;
+  /* margin-top: 40px; */
+  font-size: 20px;
+  /* font-weight: bold; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.filtersSections1,
+.filtersSections2,
+.filtersSections3,
+.filtersSections4 {
+  margin-top: 10px;
+}
+.filter_search_title,
+.filter_cusines,
+.filter_persons {
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.filter_search_box {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.filter_checkbox {
+  margin-left: 15px;
+  margin-top: 10px;
+  /* display: block; */
+}
+.filter_checkbox > div:hover {
+  margin-left: 4px;
+  margin-top: 2px;
+  display: block;
+  background-color: rgb(231, 231, 223);
+}
+/* filter checkbox and radio */
+label {
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+}
+/* filter select box */
+select {
+  width: 140px;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+}
+
+@media screen and (max-width: 600px) {
+  .filter {
+    /* background-color: yellow; */
+    float: none;
+    height: 300px;
+    width: 400px;
+    /* margin-left: 5%; */
+    margin-bottom: 2%;
+  }
+  .filter_search {
+    float: left;
+    width: 100%;
+    /* background-color:blue; */
+    margin-left: 10px;
+  }
+  .filtersSections1,
+  .filtersSections2,
+  .filtersSections3,
+  .filtersSections4 {
+    float: left;
+    width: 40%;
+    /* background-color:rgb(255, 0, 140); */
+    margin-left: 10px;
+  }
+}
