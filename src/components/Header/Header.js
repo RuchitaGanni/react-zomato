@@ -31,14 +31,14 @@ class Header extends Component {
             console.log('inn ')
             let data = this.state.userdata;
             return (
-                <Link to="" className="dropdown-toggle links" data-toggle="dropdown" href="#">
+                <Link to="#" className="dropdown-toggle links" data-toggle="dropdown" href="#">
                     {data.email}
                     <span className="caret"></span>
                 </Link>
             )
         } else {
             return (
-                <Link to="" className="dropdown-toggle links" data-toggle="dropdown" href="#">{this.state.userinfo}
+                <Link to="#" className="dropdown-toggle links" data-toggle="dropdown" href="#">{this.state.userinfo}
                     <span className="caret"></span></Link>
             )
         }

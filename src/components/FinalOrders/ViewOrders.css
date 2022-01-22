@@ -9,7 +9,7 @@ td {
 }
 
 #ordersDiv {
-  height: 300px;
+  height: 340px;
   width: 31%;
   margin: 8px;
   box-shadow: 10px 10px 20px gray;
@@ -43,14 +43,34 @@ td {
   border-radius: 10px;
 }
 
+@media  screen and (max-width: 800px) {
+  #ordersDiv {
+    height: 350px;
+    width: 70%;
+    margin-top:4px;
+    margin-left:20px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 20px;
+    float: left;
+   
+  }
+  .lineOrder1 {
+    margin-top: 8%;
+  }
+  .OrdResImageDiv {
+    width: 40%;
+    
+  }
+}
 @media  screen and (max-width: 600px) {
   #ordersDiv {
-    height: 300px;
+    height: 350px;
     width: 90%;
     margin-top:4px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 20px;
     float: left;
+   
   }
 
   .OrdResImageDiv {

@@ -30,13 +30,17 @@ function Table(props) {
                             <img src={item.ErestImg} className="OrdResImage" />
                             <h3 id="h3txt" >{item.hotel_name}</h3>
                         </div> */}
-                        <hr />
+                        <hr  className="lineOrder1"/>
                         <div className="ordPrice">
                             <h4>ORDER NUMBER  <br /> {item.orderid}</h4>
                         </div>
                         <hr />
                         <div className="ordPrice">
                             <h4>TOTAL AMOUNT <br /> &#8377; {item.totalCost}</h4>
+                        </div>
+                        <hr />
+                        <div className="ordPrice">
+                            <h4>ORDERED DATE <br /> {(item.date)}</h4>
                         </div>
                         <hr />
                         <div className="ordPrice">
