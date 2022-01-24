@@ -50,11 +50,11 @@ class DetailsHome extends Component {
         }
 
     }
-   
+
     render() {
         return (
             <Fragment>
-                <Header  />
+                <Header />
                 <div className="container">
                     {this.state.showSuccessAlert &&
                         <Alert severity="error"
@@ -151,16 +151,14 @@ class DetailsHome extends Component {
     async componentDidMount() {
         const restId = this.props.match.params.restid;
         const response = await axios.get(`${resturl}/${restId}`);
-        console.log(response.data[0].restaurant_name, 'res', response.data)
+        // console.log(response.data[0].restaurant_name, 'res', response.data)
         const menuResponse = await axios.get(`${restMenu}/${restId}`)
-        console.log(menuResponse, 'menuResponse')
+        // console.log(menuResponse, 'menuResponse')
         this.setState({ restData: response.data[0], menu: menuResponse.data })
         if (sessionStorage.getItem('hideMealType') == 1) {
-           console.log('in iff')
             this.setState({ restName: response.data[0].restaurant_name })
 
         } else {
-            console.log('in elsee');
             this.setState({ restName: sessionStorage.getItem('restName') })
         }
         this.setState({ mealName: sessionStorage.getItem('setMealName') })

@@ -73,7 +73,7 @@ class FinalOrder extends Component {
                 body: JSON.stringify(this.state)
             })
                 .then((res) => {
-                    console.log(res.status, 'dataaaa');
+                   
                     if (res.status == 200) {
                         this.props.history.push('/viewBooking')
                     }
@@ -84,18 +84,8 @@ class FinalOrder extends Component {
         }
 
 
-    }
-    //this.props.history.push('/viewBooking')
-
-    // setTimeout(function () {
-
-    // }, 2000)
-
-
+    }  
     //console.log('going for payment');
-
-
-
     // .then(this.props.history.push('/viewBooking'))
     // .then(
 
@@ -193,7 +183,7 @@ class FinalOrder extends Component {
         let menuIds = []
         menuItems.split(',').map((item) => {
             menuIds.push(parseInt(item))
-            console.log(JSON.stringify(menuIds), 'mds')
+            
             return 'ok'
         })
         fetch(menuUrl, {
@@ -207,7 +197,7 @@ class FinalOrder extends Component {
         })
             .then((res) => res.json())
             .then((data) => {
-                console.log(data, 'data')
+               
                 let menuDetails = [];
                 let totalPrice = 0;
                 data.map((item) => {

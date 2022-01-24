@@ -13,7 +13,7 @@ class MenuItems extends Component {
     addItem = (id,cost) => {
        
         this.orderId.push(`${id}`)
-        console.log(id,cost,'idcost')
+        // console.log(id,cost,'idcost')
         this.props.finalOrder(this.orderId,1,cost)
     }
     removeItem = (id,cost) => {

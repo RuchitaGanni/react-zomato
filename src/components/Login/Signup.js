@@ -113,9 +113,9 @@ class Signup extends Component {
                                         <input type="Password" name="password" id="password" class="form-control" value={this.state.password} onChange={this.handleChange} required />
                                     </div>
 
-                                    <div id="viewPswd">
+                                    {/* <div id="viewPswd">
                                         <span className="glyphicon glyphicon-eye-open" onclick="show(1);"></span>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div id="buttonsDiv">
                                     {/* <Button  variant="text" size="large" color="success" onClick={this.handleSignUp}>SignUp</Button> */}

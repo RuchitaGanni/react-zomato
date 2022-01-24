@@ -20,6 +20,8 @@ class Header extends Component {
 
         this.setState({ userdata: '' })
         this.setState({ userinfo: 'Login' })
+        sessionStorage.removeItem('userEmail');
+        sessionStorage.removeItem('restName');
         localStorage.removeItem('userdata')
         localStorage.removeItem('ltk')
         this.props.history.push('/')
@@ -28,7 +30,7 @@ class Header extends Component {
     conditionlHeader = () => {
 
         if (this.state.userdata) {
-            console.log('inn ')
+            
             let data = this.state.userdata;
             return (
                 <Link to="#" className="dropdown-toggle links" data-toggle="dropdown" href="#">
@@ -103,7 +105,6 @@ class Header extends Component {
             }
         })
             .then((res) => {
-                console.log('res', res)
                 if (res.status == 500) {
                     this.setState({ userinfo: 'Login' })
                     return;
